@@ -27,9 +27,9 @@
 		285144A41D40DA2700728FCB /* CCVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285144A31D40DA2700728FCB /* CCVideoPlayerViewController.m */; };
 		28584E311D4AFC1B00F5996B /* CCBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28584E301D4AFC1B00F5996B /* CCBasicViewController.m */; };
 		28584E341D4B04FA00F5996B /* CCContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28584E331D4B04FA00F5996B /* CCContactModel.m */; };
-		285C5B621D59B8A600436EDF /* SearchUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285C5B601D59B8A600436EDF /* SearchUserViewController.m */; };
-		285C5B631D59B8A600436EDF /* SearchUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285C5B611D59B8A600436EDF /* SearchUserViewController.xib */; };
-		285C5B661D59B8B000436EDF /* UserSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 285C5B651D59B8B000436EDF /* UserSearchModel.m */; };
+		285C5B6A1D59BA8900436EDF /* SearchUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285C5B681D59BA8900436EDF /* SearchUserViewController.m */; };
+		285C5B6B1D59BA8900436EDF /* SearchUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285C5B691D59BA8900436EDF /* SearchUserViewController.xib */; };
+		285C5B6E1D59BA9400436EDF /* UserSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 285C5B6D1D59BA9400436EDF /* UserSearchModel.m */; };
 		285E59E21D2A5C1F009435AB /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E594D1D2A5C1F009435AB /* MBProgressHUD+Add.m */; };
 		285E59E31D2A5C1F009435AB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E594F1D2A5C1F009435AB /* MBProgressHUD.m */; };
 		285E59E41D2A5C1F009435AB /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E59531D2A5C1F009435AB /* MJRefreshAutoFooter.m */; };
@@ -258,11 +258,11 @@
 		28584E301D4AFC1B00F5996B /* CCBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBasicViewController.m; sourceTree = "<group>"; };
 		28584E321D4B04FA00F5996B /* CCContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCContactModel.h; sourceTree = "<group>"; };
 		28584E331D4B04FA00F5996B /* CCContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCContactModel.m; sourceTree = "<group>"; };
-		285C5B5F1D59B8A600436EDF /* SearchUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchUserViewController.h; path = CallCenter/SearchUserViewController.h; sourceTree = "<group>"; };
-		285C5B601D59B8A600436EDF /* SearchUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchUserViewController.m; path = CallCenter/SearchUserViewController.m; sourceTree = "<group>"; };
-		285C5B611D59B8A600436EDF /* SearchUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchUserViewController.xib; path = CallCenter/SearchUserViewController.xib; sourceTree = "<group>"; };
-		285C5B641D59B8B000436EDF /* UserSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSearchModel.h; path = CallCenter/UserSearchModel.h; sourceTree = "<group>"; };
-		285C5B651D59B8B000436EDF /* UserSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSearchModel.m; path = CallCenter/UserSearchModel.m; sourceTree = "<group>"; };
+		285C5B671D59BA8900436EDF /* SearchUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchUserViewController.h; path = CallCenter/SearchUserViewController.h; sourceTree = "<group>"; };
+		285C5B681D59BA8900436EDF /* SearchUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchUserViewController.m; path = CallCenter/SearchUserViewController.m; sourceTree = "<group>"; };
+		285C5B691D59BA8900436EDF /* SearchUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchUserViewController.xib; path = CallCenter/SearchUserViewController.xib; sourceTree = "<group>"; };
+		285C5B6C1D59BA9400436EDF /* UserSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSearchModel.h; path = CallCenter/UserSearchModel.h; sourceTree = "<group>"; };
+		285C5B6D1D59BA9400436EDF /* UserSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSearchModel.m; path = CallCenter/UserSearchModel.m; sourceTree = "<group>"; };
 		285E594C1D2A5C1F009435AB /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
 		285E594D1D2A5C1F009435AB /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		285E594E1D2A5C1F009435AB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -659,9 +659,9 @@
 		2849F6A71D581DEC0022A06E /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				285C5B5F1D59B8A600436EDF /* SearchUserViewController.h */,
-				285C5B601D59B8A600436EDF /* SearchUserViewController.m */,
-				285C5B611D59B8A600436EDF /* SearchUserViewController.xib */,
+				285C5B671D59BA8900436EDF /* SearchUserViewController.h */,
+				285C5B681D59BA8900436EDF /* SearchUserViewController.m */,
+				285C5B691D59BA8900436EDF /* SearchUserViewController.xib */,
 				2849F6A81D581E030022A06E /* CCMainViewController.h */,
 				2849F6A91D581E030022A06E /* CCMainViewController.m */,
 				2849F6AA1D581E030022A06E /* CCMainViewController.xib */,
@@ -675,8 +675,8 @@
 		2849F6C71D5867540022A06E /* model */ = {
 			isa = PBXGroup;
 			children = (
-				285C5B641D59B8B000436EDF /* UserSearchModel.h */,
-				285C5B651D59B8B000436EDF /* UserSearchModel.m */,
+				285C5B6C1D59BA9400436EDF /* UserSearchModel.h */,
+				285C5B6D1D59BA9400436EDF /* UserSearchModel.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -1490,7 +1490,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 287694761D1A694400AEECB8 /* Build configuration list for PBXProject "CallCenter" */;
+			buildConfigurationList = 287694761D1A694400AEECB8 /* Build configuration list for PBXProject "Kandy+UI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1527,7 +1527,7 @@
 				285E5A751D2A63DE009435AB /* emotion.plist in Resources */,
 				285E5A3A1D2A63C1009435AB /* busytone.m4r in Resources */,
 				287869571D373D600073B9F6 /* CheckBox@2x.png in Resources */,
-				285C5B631D59B8A600436EDF /* SearchUserViewController.xib in Resources */,
+				285C5B6B1D59BA8900436EDF /* SearchUserViewController.xib in Resources */,
 				287BFB5E1D2B8096009D1D7A /* CCkit.bundle in Resources */,
 				285E5A3C1D2A63C1009435AB /* ringtone.m4r in Resources */,
 				285E5A1D1D2A5C1F009435AB /* MWPhotoBrowser.bundle in Resources */,
@@ -1569,6 +1569,7 @@
 				2873DEB71D34CD3100B2B14F /* SMImageListViewController.m in Sources */,
 				28AE51411D2BC26A00B3FFEA /* CCBubbleView.m in Sources */,
 				285E59F01D2A5C1F009435AB /* MJRefreshNormalHeader.m in Sources */,
+				285C5B6A1D59BA8900436EDF /* SearchUserViewController.m in Sources */,
 				2873DEC31D34EC5F00B2B14F /* SMAlbumModel.m in Sources */,
 				285E59E31D2A5C1F009435AB /* MBProgressHUD.m in Sources */,
 				2876958A1D1A709900AEECB8 /* FMResultSet.m in Sources */,
@@ -1639,8 +1640,8 @@
 				285E5A391D2A63C1009435AB /* ChatModule.m in Sources */,
 				287F9FB41D2E56AB00164BA5 /* UIImageView+AFNetworking.m in Sources */,
 				285E5A191D2A5C1F009435AB /* PSTGridLayoutInfo.m in Sources */,
+				285C5B6E1D59BA9400436EDF /* UserSearchModel.m in Sources */,
 				287695881D1A709900AEECB8 /* FMDatabasePool.m in Sources */,
-				285C5B661D59B8B000436EDF /* UserSearchModel.m in Sources */,
 				285E5A6F1D2A63DE009435AB /* NSString+Emoji.m in Sources */,
 				285E5A7A1D2A63DE009435AB /* FacePageView.m in Sources */,
 				287F9F621D2DF1EB00164BA5 /* CCMessageBubble.m in Sources */,
@@ -1686,7 +1687,6 @@
 				287F9FA81D2E56AB00164BA5 /* AFHTTPSessionManager.m in Sources */,
 				2873DEB41D34CD3100B2B14F /* SMImageListCell.m in Sources */,
 				2862C8CD1D49CEA2002DB75A /* CCLocationAddressModel.m in Sources */,
-				285C5B621D59B8A600436EDF /* SearchUserViewController.m in Sources */,
 				282388AA1D3E0C430029B6F2 /* CCBubbleView+Voice.m in Sources */,
 				285E59FC1D2A5C1F009435AB /* MWTapDetectingImageView.m in Sources */,
 				285E59FB1D2A5C1F009435AB /* MWPhotoBrowser.m in Sources */,
@@ -1835,7 +1835,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		287694761D1A694400AEECB8 /* Build configuration list for PBXProject "CallCenter" */ = {
+		287694761D1A694400AEECB8 /* Build configuration list for PBXProject "Kandy+UI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				287694901D1A694500AEECB8 /* Debug */,

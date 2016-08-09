@@ -8,7 +8,7 @@
 
 #import "SearchUserViewController.h"
 #import "AddressBookModule.h"
-#import "./CallCenter/3rdParty/Toast/UIView+Toast.h"
+#import "../CallCenter/3rdParty/Toast/UIView+Toast.h"
 #import "UserSearchModel.h"
 #import "CCChatViewController.h"
 

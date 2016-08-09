@@ -17,7 +17,7 @@
                BlueprintIdentifier = "2876947A1D1A694400AEECB8"
                BuildableName = "CallCenter.app"
                BlueprintName = "CallCenter"
-               ReferencedContainer = "container:CallCenter.xcodeproj">
+               ReferencedContainer = "container:Kandy+UI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "2876947A1D1A694400AEECB8"
             BuildableName = "CallCenter.app"
             BlueprintName = "CallCenter"
-            ReferencedContainer = "container:CallCenter.xcodeproj">
+            ReferencedContainer = "container:Kandy+UI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "2876947A1D1A694400AEECB8"
             BuildableName = "CallCenter.app"
             BlueprintName = "CallCenter"
-            ReferencedContainer = "container:CallCenter.xcodeproj">
+            ReferencedContainer = "container:Kandy+UI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "2876947A1D1A694400AEECB8"
             BuildableName = "CallCenter.app"
             BlueprintName = "CallCenter"
-            ReferencedContainer = "container:CallCenter.xcodeproj">
+            ReferencedContainer = "container:Kandy+UI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

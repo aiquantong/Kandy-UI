@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CallCenter.xcodeproj">
+      location = "self:/Users/aiquantong/Documents/genband/code/Kandy-UI/Kandy+UI.xcodeproj">
    </FileRef>
 </Workspace>
