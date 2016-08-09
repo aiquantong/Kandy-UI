@@ -19,17 +19,17 @@
 		2849F6AC1D581E030022A06E /* CCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2849F6AA1D581E030022A06E /* CCMainViewController.xib */; };
 		2849F6B01D581F7E0022A06E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2849F6AE1D581F7E0022A06E /* LoginViewController.m */; };
 		2849F6B11D581F7E0022A06E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2849F6AF1D581F7E0022A06E /* LoginViewController.xib */; };
-		2849F6B51D581FB50022A06E /* SearchUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2849F6B31D581FB50022A06E /* SearchUserViewController.m */; };
-		2849F6B61D581FB50022A06E /* SearchUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2849F6B41D581FB50022A06E /* SearchUserViewController.xib */; };
 		2849F6C31D5829730022A06E /* ProvisionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2849F6C21D5829730022A06E /* ProvisionModule.m */; };
 		2849F6C61D58595F0022A06E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2849F6C51D58595F0022A06E /* Utils.m */; };
-		2849F6CA1D5867690022A06E /* UserSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2849F6C91D5867690022A06E /* UserSearchModel.m */; };
 		2851449C1D40949C00728FCB /* CCBubbleView+Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851449B1D40949C00728FCB /* CCBubbleView+Video.m */; };
 		2851449F1D40A62E00728FCB /* CCLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2851449E1D40A62E00728FCB /* CCLocationViewController.m */; };
 		285144A11D40A74500728FCB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285144A01D40A74500728FCB /* MapKit.framework */; };
 		285144A41D40DA2700728FCB /* CCVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285144A31D40DA2700728FCB /* CCVideoPlayerViewController.m */; };
 		28584E311D4AFC1B00F5996B /* CCBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28584E301D4AFC1B00F5996B /* CCBasicViewController.m */; };
 		28584E341D4B04FA00F5996B /* CCContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28584E331D4B04FA00F5996B /* CCContactModel.m */; };
+		285C5B621D59B8A600436EDF /* SearchUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285C5B601D59B8A600436EDF /* SearchUserViewController.m */; };
+		285C5B631D59B8A600436EDF /* SearchUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285C5B611D59B8A600436EDF /* SearchUserViewController.xib */; };
+		285C5B661D59B8B000436EDF /* UserSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 285C5B651D59B8B000436EDF /* UserSearchModel.m */; };
 		285E59E21D2A5C1F009435AB /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E594D1D2A5C1F009435AB /* MBProgressHUD+Add.m */; };
 		285E59E31D2A5C1F009435AB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E594F1D2A5C1F009435AB /* MBProgressHUD.m */; };
 		285E59E41D2A5C1F009435AB /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E59531D2A5C1F009435AB /* MJRefreshAutoFooter.m */; };
@@ -243,15 +243,10 @@
 		2849F6AD1D581F7E0022A06E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = CallCenter/LoginViewController.h; sourceTree = "<group>"; };
 		2849F6AE1D581F7E0022A06E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = CallCenter/LoginViewController.m; sourceTree = "<group>"; };
 		2849F6AF1D581F7E0022A06E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = CallCenter/LoginViewController.xib; sourceTree = "<group>"; };
-		2849F6B21D581FB50022A06E /* SearchUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchUserViewController.h; sourceTree = "<group>"; };
-		2849F6B31D581FB50022A06E /* SearchUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUserViewController.m; sourceTree = "<group>"; };
-		2849F6B41D581FB50022A06E /* SearchUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchUserViewController.xib; sourceTree = "<group>"; };
 		2849F6C11D5829730022A06E /* ProvisionModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvisionModule.h; sourceTree = "<group>"; };
 		2849F6C21D5829730022A06E /* ProvisionModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvisionModule.m; sourceTree = "<group>"; };
 		2849F6C41D58595F0022A06E /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		2849F6C51D58595F0022A06E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		2849F6C81D5867690022A06E /* UserSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchModel.h; sourceTree = "<group>"; };
-		2849F6C91D5867690022A06E /* UserSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSearchModel.m; sourceTree = "<group>"; };
 		2851449A1D40949C00728FCB /* CCBubbleView+Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCBubbleView+Video.h"; sourceTree = "<group>"; };
 		2851449B1D40949C00728FCB /* CCBubbleView+Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCBubbleView+Video.m"; sourceTree = "<group>"; };
 		2851449D1D40A62E00728FCB /* CCLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocationViewController.h; sourceTree = "<group>"; };
@@ -263,6 +258,11 @@
 		28584E301D4AFC1B00F5996B /* CCBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBasicViewController.m; sourceTree = "<group>"; };
 		28584E321D4B04FA00F5996B /* CCContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCContactModel.h; sourceTree = "<group>"; };
 		28584E331D4B04FA00F5996B /* CCContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCContactModel.m; sourceTree = "<group>"; };
+		285C5B5F1D59B8A600436EDF /* SearchUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchUserViewController.h; path = CallCenter/SearchUserViewController.h; sourceTree = "<group>"; };
+		285C5B601D59B8A600436EDF /* SearchUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchUserViewController.m; path = CallCenter/SearchUserViewController.m; sourceTree = "<group>"; };
+		285C5B611D59B8A600436EDF /* SearchUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchUserViewController.xib; path = CallCenter/SearchUserViewController.xib; sourceTree = "<group>"; };
+		285C5B641D59B8B000436EDF /* UserSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserSearchModel.h; path = CallCenter/UserSearchModel.h; sourceTree = "<group>"; };
+		285C5B651D59B8B000436EDF /* UserSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserSearchModel.m; path = CallCenter/UserSearchModel.m; sourceTree = "<group>"; };
 		285E594C1D2A5C1F009435AB /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
 		285E594D1D2A5C1F009435AB /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		285E594E1D2A5C1F009435AB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -659,9 +659,9 @@
 		2849F6A71D581DEC0022A06E /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				2849F6B21D581FB50022A06E /* SearchUserViewController.h */,
-				2849F6B31D581FB50022A06E /* SearchUserViewController.m */,
-				2849F6B41D581FB50022A06E /* SearchUserViewController.xib */,
+				285C5B5F1D59B8A600436EDF /* SearchUserViewController.h */,
+				285C5B601D59B8A600436EDF /* SearchUserViewController.m */,
+				285C5B611D59B8A600436EDF /* SearchUserViewController.xib */,
 				2849F6A81D581E030022A06E /* CCMainViewController.h */,
 				2849F6A91D581E030022A06E /* CCMainViewController.m */,
 				2849F6AA1D581E030022A06E /* CCMainViewController.xib */,
@@ -675,8 +675,8 @@
 		2849F6C71D5867540022A06E /* model */ = {
 			isa = PBXGroup;
 			children = (
-				2849F6C81D5867690022A06E /* UserSearchModel.h */,
-				2849F6C91D5867690022A06E /* UserSearchModel.m */,
+				285C5B641D59B8B000436EDF /* UserSearchModel.h */,
+				285C5B651D59B8B000436EDF /* UserSearchModel.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -1527,7 +1527,7 @@
 				285E5A751D2A63DE009435AB /* emotion.plist in Resources */,
 				285E5A3A1D2A63C1009435AB /* busytone.m4r in Resources */,
 				287869571D373D600073B9F6 /* CheckBox@2x.png in Resources */,
-				2849F6B61D581FB50022A06E /* SearchUserViewController.xib in Resources */,
+				285C5B631D59B8A600436EDF /* SearchUserViewController.xib in Resources */,
 				287BFB5E1D2B8096009D1D7A /* CCkit.bundle in Resources */,
 				285E5A3C1D2A63C1009435AB /* ringtone.m4r in Resources */,
 				285E5A1D1D2A5C1F009435AB /* MWPhotoBrowser.bundle in Resources */,
@@ -1610,7 +1610,6 @@
 				285E5A8E1D2A6B79009435AB /* CCMessageViewController.m in Sources */,
 				285E5A7F1D2A63DE009435AB /* ChatToolBar.m in Sources */,
 				285E59F11D2A5C1F009435AB /* MJRefreshStateHeader.m in Sources */,
-				2849F6B51D581FB50022A06E /* SearchUserViewController.m in Sources */,
 				285E5A401D2A63C1009435AB /* CustomSDKLogger.m in Sources */,
 				285E5A081D2A5C1F009435AB /* NSData+EMImageContentType.m in Sources */,
 				287375921D38F1060010DC3C /* CacheUtil.m in Sources */,
@@ -1641,6 +1640,7 @@
 				287F9FB41D2E56AB00164BA5 /* UIImageView+AFNetworking.m in Sources */,
 				285E5A191D2A5C1F009435AB /* PSTGridLayoutInfo.m in Sources */,
 				287695881D1A709900AEECB8 /* FMDatabasePool.m in Sources */,
+				285C5B661D59B8B000436EDF /* UserSearchModel.m in Sources */,
 				285E5A6F1D2A63DE009435AB /* NSString+Emoji.m in Sources */,
 				285E5A7A1D2A63DE009435AB /* FacePageView.m in Sources */,
 				287F9F621D2DF1EB00164BA5 /* CCMessageBubble.m in Sources */,
@@ -1660,7 +1660,6 @@
 				287F9FB11D2E56AB00164BA5 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				287F9FAA1D2E56AB00164BA5 /* AFSecurityPolicy.m in Sources */,
 				285E59F61D2A5C1F009435AB /* UIView+MJExtension.m in Sources */,
-				2849F6CA1D5867690022A06E /* UserSearchModel.m in Sources */,
 				287BFB5A1D2B7E13009D1D7A /* CCMessageCell.m in Sources */,
 				285E5A0B1D2A5C1F009435AB /* UIImage+EMMultiFormat.m in Sources */,
 				285E5A1B1D2A5C1F009435AB /* PSTGridLayoutRow.m in Sources */,
@@ -1687,6 +1686,7 @@
 				287F9FA81D2E56AB00164BA5 /* AFHTTPSessionManager.m in Sources */,
 				2873DEB41D34CD3100B2B14F /* SMImageListCell.m in Sources */,
 				2862C8CD1D49CEA2002DB75A /* CCLocationAddressModel.m in Sources */,
+				285C5B621D59B8A600436EDF /* SearchUserViewController.m in Sources */,
 				282388AA1D3E0C430029B6F2 /* CCBubbleView+Voice.m in Sources */,
 				285E59FC1D2A5C1F009435AB /* MWTapDetectingImageView.m in Sources */,
 				285E59FB1D2A5C1F009435AB /* MWPhotoBrowser.m in Sources */,
